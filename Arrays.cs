@@ -15,10 +15,18 @@ namespace Object
             Console.WriteLine(books[0]);
             Console.WriteLine(bookId[1]);
         }
-
+        public static void ArrayLoop()
+        {
+            string[] books = { "TextBook", "NoteBook", "DrawingBook" };
+            for (int i=0; i<books.Length;i++)
+            {
+                Console.WriteLine(books[i]);
+            }
+        }
         public static void Main()
         {
             ArrayMethods();
+            ArrayLoop();
         }
     }
 }
