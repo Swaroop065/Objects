@@ -23,10 +23,20 @@ namespace Object
                 Console.WriteLine(books[i]);
             }
         }
+
+        public static void ArrayForEachLoop()
+        {
+            string[] books = { "TextBook", "NoteBook", "DrawingBook" };
+            foreach(string book in books)
+            {
+                Console.WriteLine(book);
+            }
+        }
         public static void Main()
         {
             ArrayMethods();
             ArrayLoop();
+            ArrayForEachLoop();
         }
     }
 }
