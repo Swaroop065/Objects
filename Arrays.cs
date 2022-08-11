@@ -38,5 +38,32 @@ namespace Object
             ArrayLoop();
             ArrayForEachLoop();
         }
+
+/*        public static void NewArray()
+        {
+
+            List<int> empIdLinkedList = new LinkedList<Int64>();
+
+            Console.WriteLine("The Size of LinkedList While Initiation: " + empIdLinkedList.Count());
+
+            empIdLinkedList.Add(0065);
+            empIdLinkedList.Add(0098);
+            empIdLinkedList.Add(0078);
+            empIdLinkedList.Add(9987);
+            empIdLinkedList.Add(8765);
+            empIdLinkedList.Add(5);
+            empIdLinkedList.Add(9989);
+
+           Console.WriteLine(empIdLinkedList);
+           Console.WriteLine("The Size of LinkedList While Initiation: " + empIdLinkedList.Count());
+
+
+        }*/
+
+        //method overloading 
+
+        public static int BookId
+
     }
+
 }
