@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Object
 {
-    public  class Arrays
+    public  class ArraysTest
     {
       public static void ArrayMethods()
         {
