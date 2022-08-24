@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace Object
 {
-   public class Constructers
+    public class Constructers
     {
+
+        public string model;
+
+
+
+        public Constructers()
+        {
+            model = "TATA";
+        }
+
+        public static void Main()
+        {
+            Constructers con = new Constructers();
+            Console.WriteLine(con.model);
+        }
+
     }
 }
+
