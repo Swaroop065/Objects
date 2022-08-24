@@ -22,6 +22,7 @@ namespace Object
         {
             Constructers con = new Constructers();
             Console.WriteLine(con.model);
+            Console.WriteLine(con.model);
         }
 
     }
